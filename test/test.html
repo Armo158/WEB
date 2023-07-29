@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkid(){
+            alert('test!');
+        }
+    </script>
+</head>
+<body>
+    <form method = "post", action = "register.php" class = "signupform">
+        <div class = "idForm">
+            <input type="text" name = "id" class="id" placeholder="ID">
+            <input type="button" id ="checkID" value = "Check ID" onclick="checkid();">
+        </div>
+        <div class = "emailForm">
+            <input type="text" name = "email" class="email" placeholder="Username">
+        </div>
+        <div class = "passForm">
+            <input type="password" name = "pw" class= "pw" placeholder="Password">
+        </div>
+        <div class = "passForm">
+            <input type="password" name = "pwcheck" class= "pwcheck" placeholder="Password">
+        </div>
+        <button>register!</button>
+        
+    </form>
+        
+</body>
+</html>
